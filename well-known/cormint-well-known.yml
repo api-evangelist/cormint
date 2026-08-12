@@ -1,0 +1,80 @@
+generated: '2026-08-11'
+method: probed
+source: https://www.cormint.com/.well-known/
+host: https://www.cormint.com
+note: >-
+  Every /.well-known/ path probed on the only host Cormint operates publicly
+  (www.cormint.com) returned a hard 404 with the site's own HTML 404 page — no
+  soft-200 catch-all, so these are genuine absences rather than an SPA shell.
+  Cormint publishes no discovery surface of any kind. NO WellKnown or SecurityTxt
+  pointer is emitted in apis.yml: this file records an absence, not a presence.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/oauth-protected-resource
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /.well-known/apis.json
+  status: 404
+other_paths:
+- path: /robots.txt
+  status: 200
+  note: 'User-agent: * / Allow: / — points at https://www.cormint.com/sitemap-index.xml'
+- path: /sitemap-index.xml
+  status: 200
+  note: one child sitemap, six URLs total (/, /contact/, /engineering/, /power-sites/, /privacy/, /terms/)
+- path: /llms.txt
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /openapi.yaml
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /v1/openapi.json
+  status: 404
+- path: /api-docs
+  status: 404
+- path: /docs
+  status: 404
+- path: /redoc
+  status: 404
+subdomains_checked:
+- host: api.cormint.com
+  dns: NXDOMAIN
+- host: developer.cormint.com
+  dns: NXDOMAIN
+- host: developers.cormint.com
+  dns: NXDOMAIN
+- host: docs.cormint.com
+  dns: NXDOMAIN
+- host: app.cormint.com
+  dns: NXDOMAIN
+- host: portal.cormint.com
+  dns: NXDOMAIN
+- host: mcp.cormint.com
+  dns: NXDOMAIN
+- host: status.cormint.com
+  dns: NXDOMAIN
+- host: dashboard.cormint.com
+  dns: resolves
+  status: 302
+  note: >-
+    Redirects to accounts.google.com with hd=cormint.com — a Google Workspace
+    domain-restricted internal application, not a public developer surface. No
+    anonymous content is served.
+x-evidence:
+  fetched: '2026-08-11'
+  http_status_all_wellknown: 404
+  no_wildcard_dns: true
