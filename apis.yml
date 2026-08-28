@@ -13,6 +13,17 @@ description: 'Cormint Data Systems, Inc. is a Texas-based, vertically integrated
   EPC-style infrastructure owner-operator. It is an energy and data-center infrastructure
   business rather than a software vendor: it publishes no developer portal, no API, and
   no machine-readable specification of any kind.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.cormint.com/media/social-card-cormint-v1.png
 url: https://raw.githubusercontent.com/api-evangelist/cormint/refs/heads/main/apis.yml
 x-type: company
