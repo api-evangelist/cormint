@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cormint is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/cormint_stock/
+Cormint Data Systems, Inc. is a Texas-based, vertically integrated developer and operator of power infrastructure for large-scale data centers and compute. The company designs, manufactures, deploys and operates its own electrical and site infrastructure in-house — from PDU wiring and PLC controls through transformer integration and substation work — and runs 130 MW energized today at its Fort Blocks site near Fort Stockton in West Texas, with a second 58 MW site (Bobcat) under construction near Orange Grove in ERCOT Load Zone South and a stated pipeline of roughly 370 MW across 707 controlled acres. Cormint built the operating platform in bitcoin mining, where it reports power costs of 2.3–3.1 cents per kWh and a #1 peer ranking on cost efficiency, and is now positioning the same platform for AI and HPC workloads as a colocation and EPC-style infrastructure owner-operator. It is an energy and data-center infrastructure business rather than a software vendor: it publishes no developer portal, no API, and no machine-readable specification of any kind.
+
+**Areas:** Company · Data Center · Power Infrastructure · Energy · Bitcoin Mining · AI Infrastructure · High Performance Computing · Colocation · Texas
+
+## Cormint on APIs.io
+
+Everything profiled for Cormint is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cormint/](https://apis.io/providers/cormint/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cormint Domain Security](https://apis.io/security/cormint/cormint-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cormint Plans Pricing](https://apis.io/plans/cormint/cormint-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cormint Rate Limits](https://apis.io/rate-limits/cormint/cormint-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cormint.com/)
+- [Blog](https://www.cormint.com/engineering/)
+- [Terms of service](https://www.cormint.com/terms/)
+- [Privacy policy](https://www.cormint.com/privacy/)
+- [GitHub](https://github.com/Cormint-Data-Systems)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cormint/](https://apis.io/providers/cormint/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cormint: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cormint/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
